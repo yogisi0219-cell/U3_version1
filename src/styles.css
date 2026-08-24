@@ -1,0 +1,159 @@
+@import "tailwindcss" source("../");
+
+@theme {
+  --font-display: "Cinzel Decorative", "Cinzel", serif;
+  --font-heading: "Cinzel", serif;
+  --font-body: "Cormorant Garamond", serif;
+
+  --color-ink: #07060a;
+  --color-onyx: #0d0b08;
+  --color-onyx-soft: #16130d;
+  --color-gold: #d4af37;
+  --color-gold-light: #f1dfa0;
+  --color-gold-deep: #8a6a1f;
+  --color-champagne: #e9d9ad;
+  --color-ivory: #f4ecd8;
+  --color-bronze: #6b532a;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    margin: 0;
+    background-color: var(--color-ink);
+    color: var(--color-ivory);
+    font-family: var(--font-body);
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+  }
+
+  ::selection {
+    background: var(--color-gold);
+    color: #100c04;
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: var(--color-ink);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(var(--color-gold-deep), var(--color-gold));
+    border-radius: 999px;
+  }
+}
+
+@layer components {
+  .font-display {
+    font-family: var(--font-display);
+  }
+  .font-heading {
+    font-family: var(--font-heading);
+  }
+
+  .bg-noise {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140' viewBox='0 0 140 140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.045'/%3E%3C/svg%3E");
+  }
+
+  .text-gold-gradient {
+    background: linear-gradient(120deg, #8a6a1f 0%, #f1dfa0 28%, #d4af37 52%, #f8ecc0 68%, #8a6a1f 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  .divider-diamond {
+    position: relative;
+    width: 1px;
+    background: linear-gradient(to bottom, transparent, var(--color-gold-deep) 15%, var(--color-gold) 50%, var(--color-gold-deep) 85%, transparent);
+  }
+
+  .gold-border {
+    border: 1px solid color-mix(in oklab, var(--color-gold) 35%, transparent);
+  }
+
+  .gold-ring-hover {
+    transition: box-shadow 0.5s ease, border-color 0.5s ease, transform 0.5s ease;
+  }
+  .gold-ring-hover:hover {
+    border-color: var(--color-gold);
+    box-shadow: 0 0 0 1px color-mix(in oklab, var(--color-gold) 40%, transparent), 0 18px 50px -20px rgba(212, 175, 55, 0.45);
+  }
+}
+
+@layer utilities {
+  @keyframes fade-up {
+    from {
+      opacity: 0;
+      transform: translateY(28px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  .animate-fade-up {
+    animation: fade-up 0.9s cubic-bezier(0.16, 1, 0.3, 1) both;
+  }
+
+  @keyframes fade-in {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  .animate-fade-in {
+    animation: fade-in 1.4s ease both;
+  }
+
+  @keyframes shimmer {
+    0% { background-position: 0% 50%; }
+    100% { background-position: 200% 50%; }
+  }
+  .animate-shimmer {
+    background-size: 200% auto;
+    animation: shimmer 6s linear infinite;
+  }
+
+  @keyframes drift {
+    0%, 100% { transform: translate3d(0, 0, 0) rotate(0deg); }
+    50% { transform: translate3d(14px, -20px, 0) rotate(4deg); }
+  }
+  .animate-drift {
+    animation: drift 9s ease-in-out infinite;
+  }
+
+  @keyframes spin-slow {
+    to { transform: rotate(360deg); }
+  }
+  .animate-spin-slow {
+    animation: spin-slow 26s linear infinite;
+  }
+
+  @keyframes pulse-glow {
+    0%, 100% { opacity: 0.55; }
+    50% { opacity: 1; }
+  }
+  .animate-pulse-glow {
+    animation: pulse-glow 3.4s ease-in-out infinite;
+  }
+
+  @keyframes marquee {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+  }
+  .animate-marquee {
+    animation: marquee 32s linear infinite;
+  }
+
+  .delay-1 { animation-delay: 0.12s; }
+  .delay-2 { animation-delay: 0.28s; }
+  .delay-3 { animation-delay: 0.44s; }
+  .delay-4 { animation-delay: 0.6s; }
+}
+
+code {
+  font-family: Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
