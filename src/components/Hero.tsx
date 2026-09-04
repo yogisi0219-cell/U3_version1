@@ -43,8 +43,9 @@ export function Hero() {
       <CornerFlourish className="absolute bottom-6 right-6 sm:bottom-10 sm:right-10 w-14 h-14 sm:w-20 sm:h-20 text-gold-deep rotate-180" />
 
       <div className="relative z-10 max-w-5xl mx-auto px-6 text-center flex flex-col items-center">
+        
         <p className="animate-fade-up font-heading text-gold text-xs sm:text-sm tracking-[0.5em] uppercase mb-6">
-          Est. 2009 &middot; Bhopal, Madhya Pradesh
+          Est. 2019 &middot; Kawardha, Chhattisgarh
         </p>
 
         <h1 className="animate-fade-up delay-1 font-display text-gold-gradient animate-shimmer text-[13vw] leading-[0.95] sm:text-7xl md:text-8xl lg:text-[7.5rem] mb-3">

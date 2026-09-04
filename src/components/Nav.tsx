@@ -30,12 +30,12 @@ export function Nav() {
     >
       <div className="max-w-7xl mx-auto px-5 sm:px-8 flex items-center justify-between">
         <a href="#home" className="flex items-center gap-3 group">
-          <span className="w-9 h-9 rounded-full border border-gold/70 flex items-center justify-center font-display text-gold text-sm">
-            UU
-          </span>
-          <span className="font-heading text-ivory text-sm sm:text-base tracking-[0.25em] uppercase group-hover:text-gold transition-colors">
-            Umesh Utsav Udyan
-          </span>
+          <img
+            src="/images/logo.svg"
+            alt="Umesh Utsav Udyan Logo"
+            className="h-12 sm:h-14 md:h-16 w-auto"
+          />
+          
         </a>
 
         <nav className="hidden lg:flex items-center gap-9">

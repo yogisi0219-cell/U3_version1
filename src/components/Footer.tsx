@@ -24,7 +24,7 @@ export function Footer() {
             </span>
           </a>
           <p className="font-body text-champagne/65 text-base leading-relaxed max-w-xs">
-            A royal marriage palace in Bhopal, hosting weddings, sangeets, and receptions since
+            A royal marriage palace in Kawardha, hosting weddings, sangeets, and receptions since
             2009.
           </p>
         </div>
@@ -52,12 +52,12 @@ export function Footer() {
             Visit
           </p>
           <p className="font-body text-champagne/75 text-base leading-relaxed mb-3">
-            14 Marigold Marg, Kolar Road
+            Maharajpur Lohara Road
             <br />
-            Bhopal, Madhya Pradesh 462042
+            Kawardha, Chhattisgarh 491995
           </p>
-          <p className="font-body text-champagne/75 text-base">+91 98765 43210</p>
-          <p className="font-body text-champagne/75 text-base">events@umeshutsavudyan.in</p>
+          <p className="font-body text-champagne/75 text-base">+91 9981735735</p>
+          <p className="font-body text-champagne/75 text-base">umeshutsavudyan@gmail.com</p>
         </div>
 
         <div>

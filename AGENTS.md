@@ -84,3 +84,15 @@ npm run build    # Production build
 ### TypeScript
 - Strict mode enabled
 - Import paths use the `@/` alias (maps to `src/`)
+
+## AI Agent Roles
+
+| Agent | Responsibility |
+|--------|----------------|
+| HeroAgent | Manages hero banner animations and text styling |
+| GalleryAgent | Controls layout and decorative SVGs |
+| ServicesAgent | Updates service list and icons |
+| BookingAgent | Handles booking form logic and Netlify integration |
+| ContactAgent | Manages contact form and footer links |
+| RouterAgent | Maintains route structure and scroll restoration |
+| ThemeAgent | Updates design tokens and Tailwind theme |

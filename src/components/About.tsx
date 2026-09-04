@@ -1,10 +1,10 @@
 import { CornerFlourish } from './Ornament'
 
 const STATS = [
-  { value: '17', label: 'Years of Weddings' },
-  { value: '640+', label: 'Celebrations Hosted' },
-  { value: '1,200', label: 'Guest Capacity' },
-  { value: '38', label: 'Suites & Guest Rooms' },
+  { value: '8', label: 'Years of Weddings' },
+  { value: '200+', label: 'Celebrations Hosted' },
+  { value: '3500+', label: 'Guest Capacity' },
+  { value: '37', label: 'Suites & Guest Rooms' },
 ]
 
 export function About() {
@@ -22,7 +22,7 @@ export function About() {
           </h2>
           <div className="space-y-5 font-body text-lg text-champagne/85 leading-relaxed max-w-xl">
             <p>
-              Umesh Utsav Udyan began in 2009 as a single lawn on the edge of Bhopal, built by
+              Umesh Utsav Udyan began in 2019 as a single lawn on the edge of Kawardha, built by
               Umesh Rathore for his own daughter's wedding when no venue in the city felt grand
               enough. Word travelled faster than the marigold garlands.
             </p>

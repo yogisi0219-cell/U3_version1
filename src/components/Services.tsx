@@ -1,4 +1,4 @@
-import { CalendarHeart, ChefHat, Palette, ShieldCheck, Sparkle } from 'lucide-react'
+import { Briefcase, CalendarHeart, ChefHat, Gift, Palette, ShieldCheck, Sparkle } from 'lucide-react'
 import { OrnamentDivider, SectionKicker, SectionTitle } from './Ornament'
 
 const SERVICES = [
@@ -18,10 +18,10 @@ const SERVICES = [
   },
   {
     number: '03',
-    title: 'Décor, Lighting & Florals',
-    icon: Palette,
+    title: 'Mehndi Celebration',
+    icon: Sparkle,
     description:
-      'In-house design atelier building custom mandaps, floral tunnels, and chandelier installations — no two weddings leave with the same silhouette.',
+      'Vibrant décor with traditional seating, live dhol and music, henna artists for guests, and themed catering to create a festive pre‑wedding atmosphere.',
   },
   {
     number: '04',
@@ -35,9 +35,23 @@ const SERVICES = [
     title: 'Concierge, Stay & Valet',
     icon: ShieldCheck,
     description:
-      '38 guest rooms, a bridal suite, round-the-clock valet for 400 vehicles, and a dedicated wedding manager from booking to the final farewell.',
+      '37 guest rooms, a bridal suite, round-the-clock valet for 400 vehicles, and a dedicated wedding manager from booking to the final farewell.',
   },
-]
+  {
+    number: '06',
+    title: 'Birthday Parties',
+    icon: Gift,
+    description:
+      'Custom themes, balloon décor, cake arrangements, kids’ entertainment zones, and curated menus to make every birthday unforgettable.',
+  },
+  {
+    number: '07',
+    title: 'Corporate Events',
+    icon: Briefcase,
+    description:
+      ' Conference halls with AV setup, team‑building activities, professional catering, and valet service for seamless business gatherings.'
+  },
+  ]
 
 export function Services() {
   return (

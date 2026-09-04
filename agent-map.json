@@ -1,0 +1,9 @@
+{
+  "HeroAgent": "src/components/Hero.tsx",
+  "GalleryAgent": "src/components/Gallery.tsx",
+  "ServicesAgent": "src/components/Services.tsx",
+  "BookingAgent": "src/components/Booking.tsx",
+  "ContactAgent": "src/components/Contact.tsx",
+  "RouterAgent": "src/router.tsx",
+  "ThemeAgent": "src/styles.css"
+}

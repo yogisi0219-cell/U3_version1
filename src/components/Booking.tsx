@@ -104,7 +104,7 @@ export function Booking() {
                   required
                   value={fields.name}
                   onChange={handleChange}
-                  placeholder="Rohan Bakshi"
+                  placeholder="Your Name"
                   className="w-full bg-transparent border-b border-gold-deep/40 focus:border-gold outline-none py-2.5 font-body text-lg text-ivory placeholder:text-champagne/30 transition-colors"
                 />
               </div>
@@ -135,7 +135,7 @@ export function Booking() {
                   required
                   value={fields.email}
                   onChange={handleChange}
-                  placeholder="rohan@example.com"
+                  placeholder="Youremail@example.com"
                   className="w-full bg-transparent border-b border-gold-deep/40 focus:border-gold outline-none py-2.5 font-body text-lg text-ivory placeholder:text-champagne/30 transition-colors"
                 />
               </div>

@@ -12,17 +12,17 @@ const CONTACT_DETAILS = [
   {
     icon: MapPin,
     label: 'Address',
-    value: '14 Marigold Marg, Kolar Road, Bhopal, Madhya Pradesh 462042',
+    value: 'Maharajpur Lohara Road, Kawardha, Chhattisgarh 491995',
   },
   {
     icon: Phone,
     label: 'Phone',
-    value: '+91 98765 43210',
+    value: '+91 9981735735',
   },
   {
     icon: Mail,
     label: 'Email',
-    value: 'events@umeshutsavudyan.in',
+    value: 'umeshutsavudyan@gmail.com',
   },
   {
     icon: Clock,
