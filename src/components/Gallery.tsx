@@ -1,4 +1,4 @@
-import { Flower2, Gem, Landmark, PartyPopper, Sparkles, Trees, UtensilsCrossed, Wine } from 'lucide-react'
+import { Flower2, Landmark, PartyPopper, Sparkles, Trees, UtensilsCrossed, Sun } from 'lucide-react'
 import { OrnamentDivider, SectionKicker, SectionTitle } from './Ornament'
 
 const TILES = [
@@ -19,7 +19,7 @@ const TILES = [
   {
     title: 'Umaa Banquet',
     caption: 'Intimate 150‑guest hall with elegant décor for mehndi and family functions',
-    icon: UtensilsCrossed,
+    icon: Landmark,
     span: 'md:col-span-1 md:row-span-1',
     gradient: 'from-[#231409] via-[#3d2410] to-[#0d0b08]',
   },
@@ -33,7 +33,7 @@ const TILES = [
   {
     title: 'Annada Dining Dome',
     caption: '7,000 sq ft covered dome serving 1,500 guests with royal catering',
-    icon: Gem,
+    icon: UtensilsCrossed,
     span: 'md:col-span-1 md:row-span-1',
     gradient: 'from-[#1a140a] via-[#2f2410] to-[#0d0b08]',
   },
@@ -47,10 +47,10 @@ const TILES = [
   {
     title: 'Umeshwar Mahadev Temple',
     caption: 'Sacred shrine with Shiv‑Parvati ji Virajman, serene setting for phera and blessings',
-    icon: Wine,
+    icon: Sun,   // ✅ added icon
     span: 'md:col-span-2 md:row-span-1',
     gradient: 'from-[#180f0c] via-[#2c1a13] to-[#0d0b08]',
-  },
+},
 ]
 
 export function Gallery() {

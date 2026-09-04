@@ -1,4 +1,4 @@
-import { Facebook, Instagram, Youtube } from 'lucide-react'
+import { Facebook, Instagram, Youtube, MessageCircle, Send } from 'lucide-react'
 
 const LINKS = [
   { href: '#home', label: 'Home' },
@@ -63,18 +63,25 @@ export function Footer() {
           </p>
           <div className="flex gap-4">
             <a
-              href="#"
+              href="https://www.facebook.com/share/1GLm5GTpaT/?mibextid=wwXIfr"
               aria-label="Facebook"
               className="w-10 h-10 rounded-full border border-gold/40 flex items-center justify-center text-gold hover:bg-gold hover:text-ink transition-all duration-300"
             >
               <Facebook size={17} />
             </a>
             <a
-              href="#"
+              href="https://www.instagram.com/umesh_utsav_udyan?igsi=aWVkcTlhdWR5am1i"
               aria-label="Instagram"
               className="w-10 h-10 rounded-full border border-gold/40 flex items-center justify-center text-gold hover:bg-gold hover:text-ink transition-all duration-300"
             >
               <Instagram size={17} />
+            </a>
+            <a
+              href="https://wa.me/919981735735"
+              aria-label="Whatsapp"
+              className="w-10 h-10 rounded-full border border-gold/40 flex items-center justify-center text-gold hover:bg-gold hover:text-ink transition-all duration-300"
+            >
+              <MessageCircle size={17} />
             </a>
             <a
               href="#"
@@ -82,6 +89,13 @@ export function Footer() {
               className="w-10 h-10 rounded-full border border-gold/40 flex items-center justify-center text-gold hover:bg-gold hover:text-ink transition-all duration-300"
             >
               <Youtube size={17} />
+            </a>
+             <a
+              href="https://www.threads.com/@umesh_utsav_udyan"
+              aria-label="Threads"
+              className="w-10 h-10 rounded-full border border-gold/40 flex items-center justify-center text-gold hover:bg-gold hover:text-ink transition-all duration-300"
+            >
+              <Send size={17} />
             </a>
           </div>
         </div>
