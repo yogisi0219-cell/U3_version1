@@ -38,7 +38,7 @@ const TILES = [
     gradient: 'from-[#1a140a] via-[#2f2410] to-[#0d0b08]',
   },
   {
-    title: 'Poolside Party',
+    title: 'Varuna Pool',
     caption: '20×50 ft pool with 600+ capacity, perfect for cocktails and summer celebrations',
     icon: PartyPopper,
     span: 'md:col-span-1 md:row-span-1',
