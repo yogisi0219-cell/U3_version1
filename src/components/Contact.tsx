@@ -115,7 +115,7 @@ export function Contact() {
                   required
                   value={fields.name}
                   onChange={handleChange}
-                  placeholder="Ananya Verma"
+                  placeholder="Your Name"
                   className="w-full bg-transparent border-b border-gold-deep/40 focus:border-gold outline-none py-2.5 font-body text-lg text-ivory placeholder:text-champagne/30 transition-colors"
                 />
               </div>
@@ -129,7 +129,7 @@ export function Contact() {
                   required
                   value={fields.email}
                   onChange={handleChange}
-                  placeholder="ananya@example.com"
+                  placeholder="Youremail@example.com"
                   className="w-full bg-transparent border-b border-gold-deep/40 focus:border-gold outline-none py-2.5 font-body text-lg text-ivory placeholder:text-champagne/30 transition-colors"
                 />
               </div>

@@ -13,29 +13,43 @@ export function About() {
       <div className="max-w-7xl mx-auto grid lg:grid-cols-[1.1fr_0.9fr] gap-16 lg:gap-6 items-center">
         <div className="animate-fade-up">
           <p className="font-heading text-gold text-xs sm:text-sm tracking-[0.45em] uppercase mb-4">
-            Our Story
+            उमेश उत्सव उद्यान
           </p>
           <h2 className="font-display text-4xl sm:text-5xl text-ivory mb-8 leading-tight">
-            A Family Legacy,
-            <br />
-            Carved in Marble &amp; Gold
+            एक संकल्पना, एक विरासत, एक उत्सव
           </h2>
           <div className="space-y-5 font-body text-lg text-champagne/85 leading-relaxed max-w-xl">
             <p>
-              Umesh Utsav Udyan began in 2019 as a single lawn on the edge of Kawardha, built by
-              Umesh Rathore for his own daughter's wedding when no venue in the city felt grand
-              enough. Word travelled faster than the marigold garlands.
+              उमेश उत्सव उद्यान केवल एक विवाह स्थल नहीं, बल्कि एक ऐसी दिव्य संकल्पना का साकार रूप है,
+              जिसकी प्रेरणा श्री राम मंदिर के प्रणेता आचार्य श्री धर्मेंद्र जी से जुड़ी है—
+              जहाँ उमामहेश्वर सपरिवार विराजमान हैं और हर उत्सव को अपना आशीर्वाद प्रदान करते हैं।
             </p>
             <p>
-              Seventeen years on, the same family still walks the property before every function —
-              checking the chandeliers, tasting the dal makhani, greeting each baraat at the gate.
-              What was built for one wedding now holds six hundred and counting, each one treated
-              like the first.
+              इसी भावना से प्रेरित होकर ब्रह्मलीन श्री पुलकित कुमार चौबे जी ने इस भव्य संकल्प की नींव रखी
+              और वर्ष 2019 में यह स्वप्न एक सुंदर एवं भव्य उत्सव-स्थल के रूप में साकार हुआ।
             </p>
             <p>
-              Every hall is designed to be reconfigured — sacred fire in the morning, a live band
-              by night — so a single booking can carry a family through four days of ceremony
-              without ever changing address.
+              सात वर्षों की इस यात्रा में उमेश उत्सव उद्यान ने केवल समारोहों की मेजबानी नहीं की,
+              बल्कि सैकड़ों परिवारों की खुशियों और यादों का हिस्सा बना है।
+              आज तक 400 से अधिक विवाह समारोह यहाँ संपन्न हो चुके हैं,
+              और हर समारोह को उसी आत्मीयता और समर्पण के साथ आयोजित किया जाता है,
+              जैसे वह हमारा पहला समारोह हो।
+            </p>
+            <p>
+              हर आयोजन से पहले परिवार स्वयं परिसर की तैयारियों पर ध्यान देता है—
+              साज-सज्जा की बारीकियों से लेकर भोजन की गुणवत्ता और बारात के स्वागत तक।
+              यही व्यक्तिगत जुड़ाव उमेश उत्सव उद्यान को केवल एक स्थान नहीं,
+              बल्कि अपनेपन से भरा एक परिवार बनाता है।
+            </p>
+            <p>
+              यहाँ के हॉल और आयोजन स्थल इस प्रकार तैयार किए गए हैं कि विवाह की प्रत्येक रस्म और उत्सव
+              सहजता से एक ही परिसर में संपन्न हो सके—हल्दी, मेहंदी, संगीत, विवाह से लेकर रिसेप्शन तक।
+              सुबह विवाह की पवित्र अग्नि से लेकर शाम के संगीत और उत्सव तक,
+              हर अवसर के लिए यही एक भव्य और सुविधाजनक पता।
+            </p>
+            <p>
+              उमेश उत्सव उद्यान — जहाँ परंपरा मिलती है भव्यता से,
+              और हर उत्सव बन जाता है जीवनभर की एक खूबसूरत स्मृति।
             </p>
           </div>
 
@@ -54,11 +68,11 @@ export function About() {
             <CornerFlourish className="absolute -bottom-3 -right-3 w-16 h-16 text-gold rotate-180" />
 
             <blockquote className="font-body italic text-xl sm:text-2xl text-champagne/95 leading-snug mb-8">
-              "We built a place that never asks a family to compromise between tradition and
-              scale. It should feel like a palace and run like clockwork."
+              "हमने ऐसा स्थान बनाया है जो परंपरा और भव्यता के बीच कभी समझौता नहीं करता।
+              यह महल जैसा महसूस होना चाहिए और घड़ी की तरह सटीक चलना चाहिए।"
             </blockquote>
             <p className="font-heading text-gold text-sm tracking-[0.2em] uppercase mb-10">
-              — Umesh Rathore, Founder
+              — संस्थापक परिवार
             </p>
 
             <div className="grid grid-cols-2 gap-8 border-t border-gold-deep/25 pt-8">

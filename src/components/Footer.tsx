@@ -16,9 +16,6 @@ export function Footer() {
       <div className="max-w-7xl mx-auto grid sm:grid-cols-2 lg:grid-cols-4 gap-12 mb-14">
         <div>
           <a href="#home" className="flex items-center gap-3 mb-5">
-            <span className="w-10 h-10 rounded-full border border-gold/70 flex items-center justify-center font-display text-gold text-sm">
-              UU
-            </span>
             <span className="font-heading text-ivory text-sm tracking-[0.2em] uppercase">
               Umesh Utsav Udyan
             </span>
